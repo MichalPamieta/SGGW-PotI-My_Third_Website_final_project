@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="view.aboutMe.bio1" xml:space="preserve">
+    <value>Swoją przygodę z programowaniem rozpocząłem od backendowego bootcampu Javy w Coders Lab. Aktualnie kończę studia dzienne na kierunku Informatyka w Szkole Głównej Gospodarstwa Wiejskiego (SGGW) w Warszawie.</value>
+  </data>
+  <data name="view.aboutMe.bio2" xml:space="preserve">
+    <value>Programowanie fascynuje mnie swoją możliwością tworzenia nowych, kreatywnych rozwiązań wielu zarówno prostych, jak i skomplikowanych problemów. W IT interesuje mnie stale rozwijająca się coraz szybciej technologia i nieustannie powstające projekty, które nierzadko mają na celu ułatwienie lub polepszenie życia każdego człowieka, co jednocześnie pozwala na ciągłe możliwości nauki, poznawania kolejnych dziedzin IT oraz rozwoju osobistego.</value>
+  </data>
+  <data name="view.aboutMe.bio3" xml:space="preserve">
+    <value>Na nowym stanowisku chciałbym móc dalej poszerzać swoją wiedzę ze znanego mi już stosu technologicznego, a w przyszłości poznać zagadnienia z AI czy ML, bądź też spróbować swoich sił w Game Devie.</value>
+  </data>
+  <data name="view.aboutMe.email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="view.aboutMe.mail" xml:space="preserve">
+    <value>michalpamieta1@gmail.com</value>
+  </data>
+  <data name="view.aboutMe.name" xml:space="preserve">
+    <value>Dane</value>
+  </data>
+  <data name="view.aboutMe.nameAndSurname" xml:space="preserve">
+    <value>Michał Pamięta</value>
+  </data>
+  <data name="view.aboutMe.phone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="view.aboutMe.phoneNumber" xml:space="preserve">
+    <value>798 593 160</value>
+  </data>
+  <data name="view.aboutMe.position" xml:space="preserve">
+    <value>Młodszy programista</value>
+  </data>
+  <data name="view.aboutMe.profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="view.aboutMe.skills" xml:space="preserve">
+    <value>Umiejętności</value>
+  </data>
+  <data name="view.aboutMe.title" xml:space="preserve">
+    <value>O mnie</value>
+  </data>
+  <data name="view.contact.address" xml:space="preserve">
+    <value>Warszawa</value>
+  </data>
+  <data name="view.contact.city" xml:space="preserve">
+    <value>Warszawa</value>
+  </data>
+  <data name="view.contact.contactForm" xml:space="preserve">
+    <value>Formularz</value>
+  </data>
+  <data name="view.contact.contactForm.message" xml:space="preserve">
+    <value>Wiadomość</value>
+  </data>
+  <data name="view.contact.contactForm.subject" xml:space="preserve">
+    <value>Temat</value>
+  </data>
+  <data name="view.contact.contactForm.yourEmail" xml:space="preserve">
+    <value>Twój email</value>
+  </data>
+  <data name="view.contact.contactForm.yourName" xml:space="preserve">
+    <value>Twoje imię i nazwisko</value>
+  </data>
+  <data name="view.contact.getInTouch.description" xml:space="preserve">
+    <value>Masz więcej pytań? Coś wyjątkowo cię zainteresowało lub zaciekawiło? Zapraszam serdecznie do kontaktu. Poniżej znajdują się linki do mojego profilu na LinkedIn oraz pozostałych repozytoriów na GitHubie.</value>
+  </data>
+  <data name="view.contact.getInTouch.title" xml:space="preserve">
+    <value>Pozostańmy w kontakcie!</value>
+  </data>
+  <data name="view.contact.mail" xml:space="preserve">
+    <value>michalpamieta1@gmail.com</value>
+  </data>
+  <data name="view.contact.phoneNumber" xml:space="preserve">
+    <value>798 593 160</value>
+  </data>
+  <data name="view.contact.sendMessage.description" xml:space="preserve">
+    <value>Jeżeli masz problem z wyświetleniem lub wysłaniem formularza na stronie, poniższy przycisk przekierowuje do niego (otwiera się w tej karcie).</value>
+  </data>
+  <data name="view.contact.sendMessage.failure" xml:space="preserve">
+    <value>Coś poszło nie tak! Twoja wiadomość nie została wysłana :(</value>
+  </data>
+  <data name="view.contact.sendMessage.send" xml:space="preserve">
+    <value>Wyślij</value>
+  </data>
+  <data name="view.contact.sendMessage.success" xml:space="preserve">
+    <value>Twoja wiadomość została wysłana. Dziękuję! :)</value>
+  </data>
+  <data name="view.contact.sendMessage.title" xml:space="preserve">
+    <value>Wyślij mi wiadomość</value>
+  </data>
+  <data name="view.cookies.banner" xml:space="preserve">
+    <value>Korzystając z mojej witryny, zgadzasz się na używanie przeze mnie plików cookie, aby zapewnić lepszą obsługę witryny.</value>
+  </data>
+  <data name="view.experience.codersLabJava.course" xml:space="preserve">
+    <value>Coders Lab - Java Developer: Web</value>
+  </data>
+  <data name="view.experience.codersLabJava.description" xml:space="preserve">
+    <value>Stacjonarny kurs Java trwający 8 tygodni oraz 4 tygodnie pracy nad projektem zespołowym w metodyce zwinnej</value>
+  </data>
+  <data name="view.experience.codersLabJava.title" xml:space="preserve">
+    <value>Kurs IT - Java</value>
+  </data>
+  <data name="view.experience.description" xml:space="preserve">
+    <value>Praktyki zawodowe odbyłem w obecnej firmie.</value>
+  </data>
+  <data name="view.experience.first.certificate" xml:space="preserve">
+    <value>Cambridge English Level 1 Certificate in ESOL International (First)</value>
+  </data>
+  <data name="view.experience.first.description" xml:space="preserve">
+    <value>Certyfikat potwierdzający znajomość języka angielskiego na poziomie B2 uzyskany po zakończeniu szkoły średniej</value>
+  </data>
+  <data name="view.experience.first.title" xml:space="preserve">
+    <value>Certyfikat - Język angielski na poziomie B2</value>
+  </data>
+  <data name="view.experience.jobAPSystem.description" xml:space="preserve">
+    <value>Obecna praca, w której zajmuję się administrowaniem i rozwijaniem strony internetowej, zarządzaniem bazą klientów oraz partnerów biznesowych, zaprojektowanie i stworzenie systemu CRM, a także serwisowanie oraz modernizowanie sprzętów komputerowych.</value>
+  </data>
+  <data name="view.experience.jobAPSystem.title" xml:space="preserve">
+    <value>Specjalista ds. informatyki</value>
+  </data>
+  <data name="view.experience.jobAPSystem.workplace" xml:space="preserve">
+    <value>AP System</value>
+  </data>
+  <data name="view.experience.studyBachelor.description" xml:space="preserve">
+    <value>Studia dzienne (3,5-roczne) na kierunku Informatyka i specjalizacji "Inżynieria Systemów Informacyjnych". Tematem mojej pracy inżynierskiej jest "Badanie efektywności algorytmów wielowątkowych na przykładzie działania sieci Hopfielda". </value>
+  </data>
+  <data name="view.experience.studyBachelor.title" xml:space="preserve">
+    <value>Studia inżynierskie</value>
+  </data>
+  <data name="view.experience.studyBachelor.university" xml:space="preserve">
+    <value>Szkoła Główna Gospodarstwa Wiejskiego w Warszawie</value>
+  </data>
+  <data name="view.experience.time.now" xml:space="preserve">
+    <value>obecnie</value>
+  </data>
+  <data name="view.experience.title" xml:space="preserve">
+    <value>Wykształcenie i doświadczenie</value>
+  </data>
+  <data name="view.intro.backenddev" xml:space="preserve">
+    <value>Młodszy programista Backend</value>
+  </data>
+  <data name="view.intro.downloadCode" xml:space="preserve">
+    <value>Pobierz kod źródłowy strony</value>
+  </data>
+  <data name="view.intro.downloadCv" xml:space="preserve">
+    <value>Pobierz CV</value>
+  </data>
+  <data name="view.intro.hello" xml:space="preserve">
+    <value>Witaj, Świecie!</value>
+  </data>
+  <data name="view.intro.iam" xml:space="preserve">
+    <value>Jestem Michał Pamięta</value>
+  </data>
+  <data name="view.intro.juniorcsharp" xml:space="preserve">
+    <value>Młodszy programista C#</value>
+  </data>
+  <data name="view.intro.juniorjava" xml:space="preserve">
+    <value>Młodszy programista Java</value>
+  </data>
+  <data name="view.intro.juniorpython" xml:space="preserve">
+    <value>Młodszy programista Python</value>
+  </data>
+  <data name="view.intro.webdev" xml:space="preserve">
+    <value>Młodszy programista Web</value>
+  </data>
+  <data name="view.navbar.aboutMe" xml:space="preserve">
+    <value>O mnie</value>
+  </data>
+  <data name="view.navbar.brand" xml:space="preserve">
+    <value>Michał Pamięta</value>
+  </data>
+  <data name="view.navbar.contact" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="view.navbar.experience" xml:space="preserve">
+    <value>Doświadczenie</value>
+  </data>
+  <data name="view.navbar.home" xml:space="preserve">
+    <value>Strona Główna</value>
+  </data>
+  <data name="view.navbar.portfolio" xml:space="preserve">
+    <value>Portfolio</value>
+  </data>
+  <data name="view.navbar.services" xml:space="preserve">
+    <value>Specjalizacje</value>
+  </data>
+  <data name="view.portfolio.all" xml:space="preserve">
+    <value>Wszystkie</value>
+  </data>
+  <data name="view.portfolio.assembly" xml:space="preserve">
+    <value>Program w Assembly</value>
+  </data>
+  <data name="view.portfolio.csharp.graphsBFS" xml:space="preserve">
+    <value>Algorytm BFS w grafach</value>
+  </data>
+  <data name="view.portfolio.csharp.multithreading" xml:space="preserve">
+    <value>Projekty wielowątkowe</value>
+  </data>
+  <data name="view.portfolio.description" xml:space="preserve">
+    <value>Projekty umieszczone poniżej zostały w całości lub znacznym stopniu wykonane przeze mnie. Dodatkowo, jako członek kilku grup programistycznych, byłem współtwórcą wielu innych ciekawych aplikacji takich jak gra w szachy wykonana w Unity, system zarządzania przychodnią czy aplikacji ułatwiającej organizowanie wspólnych wyjść na obiad lub do kina.</value>
+  </data>
+  <data name="view.portfolio.java.interfaces" xml:space="preserve">
+    <value>Implementacja interfejsów</value>
+  </data>
+  <data name="view.portfolio.matlab.computerGraphics" xml:space="preserve">
+    <value>Projekty w MATLABIE</value>
+  </data>
+  <data name="view.portfolio.myFirstWebsite" xml:space="preserve">
+    <value>Pierwszy projekt strony</value>
+  </data>
+  <data name="view.portfolio.myPortfolio" xml:space="preserve">
+    <value>Strona portfolio</value>
+  </data>
+  <data name="view.portfolio.mySecondWebsite" xml:space="preserve">
+    <value>Drugi projekt strony</value>
+  </data>
+  <data name="view.portfolio.python.converter" xml:space="preserve">
+    <value>Konwerter jednostek</value>
+  </data>
+  <data name="view.portfolio.title" xml:space="preserve">
+    <value>Portfolio</value>
+  </data>
+  <data name="view.services.description" xml:space="preserve">
+    <value>W tym technologie, które znam lub miałem styczność w projektach grupowych. Oprócz tego, zajmowałem się również testowaniem i dokumentowaniem tworzonych aplikacji.</value>
+  </data>
+  <data name="view.services.title" xml:space="preserve">
+    <value>Specjalizacje</value>
+  </data>
+</root>
